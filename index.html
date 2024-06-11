@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auroraluna</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a;
+            color: #c7c7c7;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #0066cc, #001a33);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 102, 204, 0.5);
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #1a1a1a;
+            padding: 10px 0;
+            box-shadow: 0 0 10px rgba(0, 102, 204, 0.5);
+        }
+        nav a {
+            color: #0066cc;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #3399ff;
+        }
+        .hero {
+            background: url('img/hero.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+            padding: 0 20px;
+            box-shadow: 0 0 20px rgba(0, 102, 204, 0.5);
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 0 0 10px rgba(0, 102, 204, 0.7);
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+        .content {
+            background: #1a1a1a;
+            padding: 40px;
+            margin-top: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 102, 204, 0.5);
+        }
+        .content h2 {
+            color: #0066cc;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .content p {
+            margin-bottom: 20px;
+        }
+        .content img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        footer {
+            background: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            box-shadow: 0 0 10px rgba(0, 102, 204, 0.5);
+        }
+        .columns {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex: 1;
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 102, 204, 0.5);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- <img src="logo.png" alt="Auroraluna"> -->
+        <h1>Auroraluna</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#technologies">Technologies</a>
+        <a href="#goals">Our Goals</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Innovating the Future with AI</h2>
+    </div>
+
+    <div class="container">
+        <div id="about" class="content">
+            <h2>About Us</h2>
+            <p>Auroraluna Technology Inc. is a high-tech company founded in 2023, specializing in Artificial Intelligence (AI) technologies. We integrate AI with other advanced technologies to achieve visualization, navigation, and data analysis. Our mission is to drive digital transformation and intelligent upgrading across various industries through advanced technological means.</p>
+        </div>
+        
+        <div id="technologies" class="content">
+            <h2>Our Technologies</h2>
+            <div class="columns">
+                <div class="column">
+                    <h3>AI and Data Analysis</h3>
+                    <img src="img/analysis.jpg" alt="Data Analysis">
+                    <p>We leverage powerful AI algorithms to process and analyze large datasets, extracting valuable insights that support decision-making and strategic planning.</p>
+                </div>
+                <div class="column">
+                    <h3>Language Models</h3>
+                    <img src="img/nlp.jpg" alt="Language Models">
+                    <p>We develop advanced language models capable of understanding and generating human language, enhancing communication and interaction in various applications.</p>
+                </div>
+                <div class="column">
+                    <h3>AI in Simulation and Gaming</h3>
+                    <img src="img/vr.jpg" alt="AI in Simulation and Gaming">
+                    <p>Our AI models create realistic and interactive virtual environments for simulations and gaming, providing immersive experiences for users.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="goals" class="content">
+            <h2>Our Goals</h2>
+            <p>Currently, we are dedicated to packaging these technologies into a service (Model-as-a-Service, MaaS) to offer to gaming and virtual reality companies. Our goal is to provide clients with the most advanced tools for creating virtual environments, helping them stand out in a highly competitive market. While our technology is still in the development stage, we firmly believe that through continuous innovation and optimization, we can deliver high-quality services and solutions to our clients.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Auroraluna Technology Inc. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
